@@ -1,0 +1,519 @@
+html,body{
+	height:100%;
+}
+
+.navbar{
+	background: rgba(35, 33, 33,0.97);
+}
+body{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	color:#333;
+	margin:0;
+	padding:0;
+	background-color:#fdfcfe; 
+  	/*background: -webkit-radial-gradient(circle, white, gray); /* Safari */
+  	/*background: -o-radial-gradient(circle, white, gray); /* Opera 11.6 to 12.0 */
+  	/*background: -moz-radial-gradient(circle, white, gray); /* Firefox 3.6 to 15 */
+  	/*background: radial-gradient(circle, white, gray); /* Standard syntax */
+}
+
+div {
+  overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
+
+p{
+	font-weight: 500;
+}
+
+.content{
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.img-container{
+    padding:10px;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+#homeSection img{
+    width:215px;
+}
+
+#resumeSection{
+    color:white;
+}
+
+#resumeSection img{
+    padding:13px;
+    border: solid white 1px;
+}
+
+.title{
+   	font-weight: 400;
+   	font-variant: small-caps;
+	padding-top: 60px;
+	text-align:center;
+	color:white;
+}
+
+.sect{
+    height:750px;
+	background-size: cover;
+}
+
+.subSection{
+	background-size: cover;
+}
+
+.sectOne{
+	color:white;
+	background-image: url("../images/bg1.jpeg");
+}
+
+.sectTwo{
+	position: relative;
+	color: white;
+	background-image: url("../images/bg2.1.jpg");
+}
+
+
+.sectThree{
+	background-image: url("../images/bg11.1.jpg");
+}
+
+.sectFour{
+	background-image: url("../images/bg4.1.jpg");
+}
+
+.sectFive{
+    background-image: url("../images/bg5.1.jpg");
+}
+
+
+#projectsSection h1,#projectsSection h2, #projectsSection p{
+    color:white;
+}
+
+#aboutSection h1, #aboutSection h2, #aboutSection p{
+	color: rgba(0, 0, 0,0.7);
+}
+
+
+.head{
+	color: rgba(255, 255, 255,0.94);
+	margin-top: 105px;
+	margin-bottom: 100px;
+	letter-spacing: 2.5px;
+	font-weight: 600;
+	font-variant: small-caps;
+}
+
+#homeSection h2{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+@media screen and (min-width : 1300px) and (max-width : 5000px) {
+    .subSection{
+    	height: 550px;
+    }
+    p{
+		font-size: 18px;
+    }
+    h2{
+    	font-size: 40px;
+    }
+    .title{
+    	font-size: 55px;
+    }
+
+	.head{
+    	margin-top:45px; 
+    	margin-bottom: 25px;
+    }
+    
+    #homeSection{
+        height:600px;
+    }
+
+    #aboutSection{
+    	height:550px;
+    }
+
+    #projectsSection{
+        height: 1400px;
+    }
+
+     #resumeSection{
+        height: 500px;
+    }
+
+    #contactSection{
+        height: 450px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+}
+
+@media screen and (min-width : 1010px) and (max-width : 1300px) {
+    .subSection{
+        height: 550px;
+    }
+    p{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .title{
+        font-size: 55px;
+    }
+
+    .head{
+        margin-top:45px; 
+        margin-bottom: 25px;
+    }
+    
+    #homeSection{
+        height:700px;
+    }
+
+    #aboutSection{
+        height:750px;
+    }
+
+    #projectsSection{
+        height: 1600px;
+    }
+
+     #resumeSection{
+        height: 500px;
+    }
+
+    #contactSection{
+        height: 450px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+}
+
+@media screen and (min-width : 920px) and (max-width : 1010px) {
+    .subSection{
+    	height: 550px;
+    }
+    p{
+		font-size: 18px;
+    }
+    h2{
+    	font-size: 33px;
+    }
+    .title{
+    	font-size: 55px;
+    }
+
+	.head{
+    	margin-top:45px; 
+    	margin-bottom: 25px;
+    }
+    
+    #homeSection{
+        height:700px;
+    }
+
+    #aboutSection{
+    	height:750px;
+    }
+
+    #projectsSection{
+        height: 1600px;
+    }
+
+     #resumeSection{
+        height: 500px;
+    }
+
+    #contactSection{
+        height: 750px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+
+}
+
+@media screen and (min-width : 676px) and (max-width : 920px) {
+    h2{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+    .title{
+        font-size: 55px;
+    }
+
+    .sect{
+        height: 800px;
+    }
+
+    .head{
+        margin-top:45px; 
+        margin-bottom: 25px;
+    }
+    
+    #homeSection{
+        height:750px;
+    }
+
+    #aboutSection{
+        height:850px;
+    }
+
+    #projectsSection{
+        height: 1900px;
+    }
+
+    #resumeSection{
+        height: 500px;
+    }
+
+    #contactSection{
+        height: 750px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+}
+
+@media screen and (min-width : 624px) and (max-width : 676px) {
+    h2{
+    	font-size: 30px;
+    }
+	
+	p{
+		font-size: 17px;
+	}
+    .title{
+    	font-size: 55px;
+    }
+
+    .sect{
+		height: 800px;
+    }
+
+    .head{
+    	margin-top:45px; 
+    	margin-bottom: 25px;
+    }
+
+    #homeSection{
+        height:920px;
+    }
+    #aboutSection{
+    	height:850px;
+    }
+
+    #projectsSection{
+        height: 2600px;
+    }
+
+    #resumeSection{
+        height: 500px;
+    }
+
+    #contactSection{
+        height: 750px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+}
+
+ @media only screen and (min-width: 500px) and  (max-width : 624px) {
+    #homeSection img {
+        width:200px
+    }
+    .title{
+    	font-size: 50px;
+    }
+    p{
+    	font-size:17px;
+    }
+    
+    h2{
+        font-size:30px;
+    }
+
+	.head{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	
+	#homeSection{
+	    height:850px;
+	}
+
+	#aboutSection{
+    	height:950px;
+    }
+
+    #projectsSection{
+        height:2750px;
+    }
+    #resumeSection{
+        height:410px;
+    }
+
+    #contactSection{
+        height:700px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+
+ }
+
+ @media only screen and (min-width: 375px) and  (max-width : 500px){
+	.title{
+		font-size: 35px;
+	}
+	
+	h2{
+	    font-size:25px;
+	}
+	#homeSection img{
+		width:165px;
+	}
+	p{	 
+		font-size:15px;
+	}
+	
+	#homeSection{
+	    height:800px;
+	}
+
+	.subSection{
+		height: 950px;
+	}
+	
+	h1{
+	    font-size:30px;
+	}
+
+	.head{
+		margin-bottom: 14px;
+		margin-top:14px;
+	}
+	
+	#aboutSection{
+	    height:1200px;
+	}
+
+    #projectsSection{
+        height:2850px;
+    }
+
+    #resumeSection{
+        height: 450px
+    }
+
+    #contactSection{
+        height: 730px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: white;
+    }
+
+
+}
+
+@media only screen and (max-width: 375px){
+	.title{
+		font-size: 35px;
+	}
+	#homeSection img{
+		width:150px;
+	}
+	p{	 
+		font-size:15px;
+	}
+
+	.subSection{
+		height: 950px;
+	}
+	
+	#homeSection{
+	    height:850px;
+	}
+	
+	h2{
+	    font-size:25px;
+	}
+
+    h1{
+        font-size:25px;
+    }
+    
+	.head{
+		margin-bottom: 14px;
+		margin-top:14px;
+	}
+	
+	#aboutSection{
+	    height:1100px;
+	}
+
+    #projectsSection{
+        height:2750px;
+    }
+
+    #resumeSection{
+        height: 550px
+    }
+
+    #contactSection{
+        height: 750px;
+    }
+    
+    #contactSection h1, #contactSection h2, #contactSection p{
+    color: black;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
